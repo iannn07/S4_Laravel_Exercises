@@ -17,23 +17,29 @@
     <div class="container">
         <h1>Bootstrap Demo</h1>
         <div class="row">
-            <div class="col-md-4">
+
+            <div class="col">
                 <h3>Form</h3>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Insert your messages</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="text-center">
-                    <button type="button" class="btn btn-success">Submit</button>
-                    <button type="button" class="btn btn-danger">Reset</button>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Insert your messages</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success">Submit</button>
+                            <button type="button" class="btn btn-danger">Reset</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-8">
+
+            <div class="col">
                 <h3>Table</h3>
                 <table class="table">
                     <thead>
@@ -64,6 +70,20 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="text-center">
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/F1F2/production/_118283916_b19c5a1f-162b-410b-8169-f58f0d153752.jpg.webp"
+                    class="card-img-top" alt="meme">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
     </div>

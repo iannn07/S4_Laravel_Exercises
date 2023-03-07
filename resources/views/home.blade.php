@@ -74,15 +74,22 @@
 
         </div>
 
-        <div class="card" style="width: 18rem;">
-            <div class="text-center">
-                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/F1F2/production/_118283916_b19c5a1f-162b-410b-8169-f58f0d153752.jpg.webp"
-                    class="card-img-top" alt="meme">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+        <br>
+        <div class="row-sm-3">
+            <div class="offset-md-3 col-md-6">
+                <div class="text-center">
+                    <div class="card">
+                        <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/F1F2/production/_118283916_b19c5a1f-162b-410b-8169-f58f0d153752.jpg.webp"
+                            class="card-img-top" alt="meme">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>

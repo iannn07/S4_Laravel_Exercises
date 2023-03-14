@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="{{asset('Asset/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('Asset/css/bootstrap.css')}}" rel="stylesheet">
+    <link href="{{ asset('Asset/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('Asset/css/bootstrap.css') }}" rel="stylesheet">
     <title>@yield('title')</title>
 </head>
 
 <body>
-    <script href="{{asset('Asset/js/bootstrap.min.js')}}"></script>
-    <script href="{{asset('Asset/js/bootstrap.js')}}"></script>
+    <script href="{{ asset('Asset/js/bootstrap.min.js') }}"></script>
+    <script href="{{ asset('Asset/js/bootstrap.js') }}"></script>
     <div class="row">
         <div class="col">
             <nav class="navbar-expand-lg navbar-light bg-dark">

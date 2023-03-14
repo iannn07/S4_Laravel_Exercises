@@ -19,7 +19,8 @@
             <nav class="navbar-expand-lg navbar-light bg-dark">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
-                        <a class="navbar-brand text-white" href="#">Navbar</a>
+                        {{-- You can use array inside of route() function --}}
+                        <a class="navbar-brand text-white" href="{{ route('hehe.route1', 'hehe') }}">Navbar</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">

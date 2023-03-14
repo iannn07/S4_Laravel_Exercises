@@ -14,5 +14,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', [WebController::class, 'home']);
+Route::get('/', [WebController::class, 'home']);
 Route::get('/about', [WebController::class, 'about']);
+
+// Routing Exercise using Route
+Route::group(['prefix' => '/hehe'], function(){
+    Route::get('/route1/{params}', function($params){
+        return $params;
+    }) -> name('hehe.route1');
+    Route::get('/route2/{params}', function($params){
+        return $params;
+    }) -> name('hehe.route2');
+});
